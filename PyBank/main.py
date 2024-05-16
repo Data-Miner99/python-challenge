@@ -6,9 +6,9 @@ pwf = os.path.abspath(__file__)
 pwd = os.path.dirname(pwf)
 
 # Set the relative path to the input and output files
-relative_path = os.path.join("budget_data.csv")
-input_file = os.path.join("budget_data.csv")
-output_file = os.path.join("analysis.txt")
+relative_path = os.path.join("PyBank", "Resources", "budget_data.csv")
+input_file = os.path.join("PyBank", "Resources", "budget_data.csv")
+output_file = os.path.join("PyBank", "Analysis", "analysis.txt")
 
 # Declare variables
 total_months = 0

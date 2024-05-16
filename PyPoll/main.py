@@ -6,9 +6,9 @@ pwf = os.path.abspath(__file__)
 pwd = os.path.dirname(pwf)
 
 # Set the relative path to the input and output files
-relative_path = os.path.join("election_data.csv")
-input_file = os.path.join("election_data.csv")
-output_file = os.path.join("analysis.txt")
+relative_path = os.path.join("PyPoll", "Resources","election_data.csv")
+input_file = os.path.join("PyPoll", "Resources","election_data.csv")
+output_file = os.path.join("PyPoll", "Analysis", "analysis.txt")
 
 # Declare variables
 total_votes = 0
